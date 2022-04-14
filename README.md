@@ -8,7 +8,7 @@ sudo xattr -rd com.apple.quarantine /Applications/TheMagicalKetchup.app
 
 **or alternatively:**
 ```bash
-sudo xattr -rd com.apple.quarantine <path to app>
+sudo xattr -rd com.apple.quarantine [insert path to app]
 ```
 
 If it still doesn't work after running the above command, submit an issue.
